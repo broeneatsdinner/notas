@@ -1,3 +1,5 @@
+# Editing files remotely via SSH on SublimeText 3
+
 Sometimes you need to edit a file on a remote server, but using vim/emacs is not very practical, due to lag and speed of screen refresh.
 
 TextMate users have the <u>classic</u> `rmate`, but it was implemented in Ruby, which may not be available on the remote server.
