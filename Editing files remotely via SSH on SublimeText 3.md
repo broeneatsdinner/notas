@@ -6,6 +6,8 @@ TextMate users have the [classic](https://github.com/textmate/rmate) `rmate`, bu
 
 A better option is to use [this version](https://github.com/aurora/rmate) of `rmate`, implemented in pure Bash. It's a single file, self-contained, and with no external dependencies.
 
+***
+
 Step by step:
 
 1. _(on your local workstation)_ On Sublime Text 3, open Package Manager (Ctrl-Shift-P on Linux/Win, Cmd-Shift-P on Mac, _Install Package_), and search for `rsub`
@@ -17,6 +19,8 @@ Step by step:
 sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate
 chmod a+x /usr/local/bin/rsub
 ```
+
+***
 
 Just keep your ST3 editor open, and you can easily edit remote files with `rsub myfile.txt`.
 
