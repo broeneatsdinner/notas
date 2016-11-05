@@ -2,9 +2,9 @@
 
 Sometimes you need to edit a file on a remote server, but using vim/emacs is not very practical, due to lag and speed of screen refresh.
 
-TextMate users have the <u>classic</u> `rmate`, but it was implemented in Ruby, which may not be available on the remote server.
+TextMate users have the [classic](https://github.com/textmate/rmate) `rmate`, but it was implemented in Ruby, which may not be available on the remote server.
 
-A better option is to use <u>this version</u> of `rmate`, implemented in pure Bash. It's a single file, self-contained, and with no external dependencies.
+A better option is to use [this version](https://github.com/aurora/rmate) of `rmate`, implemented in pure Bash. It's a single file, self-contained, and with no external dependencies.
 
 Step by step:
 
