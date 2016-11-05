@@ -22,9 +22,13 @@ chmod a+x /usr/local/bin/rsub
 
 ***
 
-Just keep your ST3 editor open, and you can easily edit remote files with `rsub myfile.txt`.
+Just keep your ST3 editor open on your local machine, and you can easily edit remote files by typing `rsub myfile.txt` in your terminal window.
 
-Create an alias and you can edit remote files with `subl myfile.txt`.
+BONUS: Create an alias and you can edit remote files with `subl myfile.txt`. To do so, edit ~/.bash_profile or ~/.bashrc and add the following:
+```
+# Dude, if you want to use Sublime Text to edit files on this machine,
+alias subl='rsub'
+```
 
 EDIT: if you get "no such file or directory", it's because your `/usr/local/bin` is not in your PATH. Just add the directory to your path:
 ```
