@@ -2,7 +2,7 @@
 
 Sometimes you need to edit a file on a remote server, but using vim/emacs/nano is not very practical, due to lag and speed of screen refresh.
 
-Maybe you want to use your local copy of Sublime Text for its syntax highlighting and familiar keyboard shortcuts.
+Maybe you want to use your local copy of [Sublime Text](http://www.sublimetext.com) for its syntax highlighting and familiar keyboard shortcuts.
 
 There exists a way for you to create/open remote files on your local machine running Sublime Text, and edit them. When you save your changes in Sublime Text, the remote file is updated automagically.
 
