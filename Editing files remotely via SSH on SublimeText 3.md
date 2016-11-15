@@ -19,7 +19,7 @@ Step by step:
 3. On your remote server:
 ```
 sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate
-chmod a+x /usr/local/bin/rsub
+sudo chmod a+x /usr/local/bin/rsub
 ```
 
 ***
