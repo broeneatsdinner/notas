@@ -16,6 +16,14 @@ Step by step:
 
 2. _(on your local workstation)_ Add `RemoteForward 52698 127.0.0.1:52698` to your .ssh/config file, or `-R 52698:localhost:52698` to the end of your SSH command if you prefer command line
 
+* Note: if you're using ~/.ssh/config and getting the error `/usr/local/bin/rsub: socket: Address family not supported by protocol`, reference this: https://stackoverflow.com/questions/18938950/rsub-with-sublime-and-ssh-connection-refusual
+
+Currently, my ~/.ssh/config looks like this:
+```
+Host *
+  RemoteForward 52698 localhost:52698
+```
+
 3. On your remote server:
 ```
 sudo wget -O /usr/local/bin/rsub https://raw.github.com/aurora/rmate/master/rmate
